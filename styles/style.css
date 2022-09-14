@@ -229,7 +229,7 @@
   color: #fff;
 }
 
-.kaufman_triagle {
+.kaufman__triagle {
   position: absolute;
   right: -210px;
   top: 0;
@@ -275,6 +275,11 @@
 
 .footer__author {
   margin: 18px 0;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
 }
 
 .footer__column-heading {
