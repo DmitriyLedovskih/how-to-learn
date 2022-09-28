@@ -5,7 +5,6 @@
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/logo/_place/logo_place_footer.css");
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/__rotation/header__rotation.css");
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__subtitle/header__subtitle.css");
 @import url("../blocks/header/__link/header__link.css");
@@ -56,7 +55,6 @@
 @import url("../blocks/khan/__buy-link/khan__buy-link.css");
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/kaufman/__triagle/kaufman__triagle.css");
-@import url("../blocks/kaufman/__rotation/kaufman__rotation.css");
 @import url("../blocks/resources/resources.css");
 @import url("../blocks/resources/__logo-zone/resources__logo-zone.css");
 @import url("../blocks/resources/__link/resources__link.css");
