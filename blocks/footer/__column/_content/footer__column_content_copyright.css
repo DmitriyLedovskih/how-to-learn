@@ -1,6 +1,14 @@
 .footer__column_content_copyright {
-  flex-basis: 711px;
+  -ms-flex-preferred-size: 711px;
+      flex-basis: 711px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

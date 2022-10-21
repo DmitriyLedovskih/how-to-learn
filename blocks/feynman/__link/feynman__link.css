@@ -6,6 +6,8 @@
   right: 48px;
   top: 50%;
   color: #2f80ed;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
   transition: opacity .3s;
 }
 
