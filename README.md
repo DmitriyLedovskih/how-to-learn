@@ -1,4 +1,4 @@
-# How To Learn(Научиться учиться).
+# [How To Learn(Научиться учиться).](https://dmitriyledovskih.github.io/how-to-learn/)
 
 ## Описание:
 
