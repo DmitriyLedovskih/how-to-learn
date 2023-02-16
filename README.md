@@ -1,22 +1,23 @@
-# [How To Learn(Научиться учиться).](https://dmitriyledovskih.github.io/how-to-learn/)
+# "How To Learn(Научиться учиться)".
+
+[Ссылка на проект](https://dmitriyledovskih.github.io/how-to-learn)
 
 ## Описание:
 
 Первая проектная работа с курса Веб-разработчик от [Яндекс.Практикума](https://practicum.yandex.ru/).
 
-Я сделал файлововую структуру БЭМ Nested, сделал анимацию и добавил несколько новых блоков.
+Лендинг о современном и эффективном подходе к обучению.
 
-## Обложка:
+## Технологии:
+![HTML5](https://img.shields.io/badge/HTML5-333?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-333?style=for-the-badge&logo=css3&logoColor=1572B6)
 
-![Обложка](./images/main-cover.png)
-
-## В проекте используются:
+## Закрепленные навыки:
 
 1. Сематические теги
-2. Flex
+2. Flex тенхология
 3. Анимации
-4. Файловая струтура БЭМ Nested
-5. Наименования классов по БЭМ
+4. Методология БЭМ
 
 ## Планы:
 
