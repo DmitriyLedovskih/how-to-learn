@@ -3,3 +3,10 @@
   line-height: 1.15;
   margin: 0 0 68px;
 }
+
+@media screen and (max-width: 670px) {
+  .khan__quote-author-subline {
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,3 +1,10 @@
 .description {
   margin-bottom: 100px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 670px) {
+  .description {
+    margin-bottom: 50px;
+  }
 }

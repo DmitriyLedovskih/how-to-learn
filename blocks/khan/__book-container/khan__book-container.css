@@ -3,6 +3,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
 }

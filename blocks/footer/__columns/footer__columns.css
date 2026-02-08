@@ -5,10 +5,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #fff;
   font-size: 18px;
   line-height: 30px;
   min-height: 350px;
+  flex-wrap: wrap-reverse;
 }

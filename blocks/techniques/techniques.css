@@ -1,4 +1,11 @@
 .techniques {
-  width: 80%;
+  max-width: 920px;
+  width: 100%;
   margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 670px) {
+  .techniques {
+    margin-bottom: 50px;
+  }
 }

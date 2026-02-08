@@ -4,3 +4,9 @@
   font-weight: 600;
   margin: 0 0 10px;
 }
+
+@media screen and (max-width: 670px) {
+  .khan__quote-author {
+    font-size: 21px;
+  }
+}

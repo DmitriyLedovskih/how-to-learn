@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body>
   <div class="page">
     <header class="header">
-      <img src="./images/logo_place_header.svg" alt="Логотип в шапки" class="logo logo_place_header">
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению
-        вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &rarr;</a>
-      </p>
+      <div class="header__content">
+        <img src="./images/logo_place_header.svg" alt="Логотип в шапки" class="logo logo_place_header">
+        <h1 class="header__title">Научиться учиться</h1>
+        <p class="header__subtitle">
+          Какие современные и эффективные подходы к обучению
+          вы можете использовать в своей жизни?
+          <a href="#" class="header__link">Узнать &rarr;</a>
+        </p>
+      </div>
       <div class="header__square-pic rotation"></div>
       <img src="./images/header-image.png" alt="Иллюстрация шапки" class="header__main-illustration">
     </header>
@@ -100,8 +104,11 @@
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <div class="feynman__content">
+          <div></div>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        </div>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -276,4 +283,5 @@
     </footer>
   </div>
 </body>
+
 </html>

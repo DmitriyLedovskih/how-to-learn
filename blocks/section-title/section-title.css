@@ -8,3 +8,10 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 670px) {
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}

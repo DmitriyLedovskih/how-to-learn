@@ -1,3 +1,9 @@
 .digits {
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 670px) {
+  .digits {
+    margin-bottom: 50px;
+  }
+}

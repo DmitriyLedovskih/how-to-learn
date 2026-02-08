@@ -4,3 +4,10 @@
   line-height: 1.15;
   font-weight: 600;
 }
+
+@media screen and (max-width: 670px) {
+  .khan__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}

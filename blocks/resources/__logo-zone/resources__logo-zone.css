@@ -3,8 +3,18 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1100px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  width: 100%;
   margin: 70px auto 0;
+}
+
+@media screen and (max-width: 670px) {
+  .resources__logo-zone {
+    margin-top: 30px;
+    justify-content: center;
+  }
 }

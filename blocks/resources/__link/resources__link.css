@@ -1,5 +1,6 @@
 .resources__link {
-  width: 270px;
+  max-width: 270px;
+  width: 100%;
   height: 38px;
   transition: .3s;
 }

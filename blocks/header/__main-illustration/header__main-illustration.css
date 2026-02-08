@@ -1,7 +1,18 @@
 .header__main-illustration {
-  width: 765px;
-  height: 608px;
+  max-width: 765px;
+  max-height: 608px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 670px) {
+  .header__main-illustration {
+    max-width: 360px;
+    max-height: 265px;
+  }
 }

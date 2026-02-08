@@ -1,3 +1,9 @@
 .resources {
   padding-bottom: 217px;
 }
+
+@media screen and (max-width: 670px) {
+  .resources {
+    padding-bottom: 100px;
+  }
+}

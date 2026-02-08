@@ -1,9 +1,21 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+  max-height: 568px;
+  max-width: 568px;
+  width: 100%;
+  height: 100%;
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 670px) {
+  .header__square-pic {
+    max-width: 246px;
+    max-height: 246px;
+    top: auto;
+    bottom: 0;
+  }
 }
